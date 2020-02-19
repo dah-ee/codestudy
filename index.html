@@ -3,84 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2주차-라임</title>
+    <title>2week-musinsa</title>
 
     <style>
 
         body{
 
-            font-family: helvetica, sans-serif;
+            font-family: sans-serif;
         }
+
 
         .logo{
 
+            text-decoration: none;
             color: white;
-            text-decoration: none;
-        }
-        
-        .header{
-
-            font-family: Helvetica, sans-serif;
-            display: flex;
-            position: fixed;
-            justify-content: space-between;
-            padding: 1vw;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100px;
-            box-sizing: border-box;
-            background: black;
-            align-items: center;
-        }
-
-        .botton01{
-
-            color: white;
-            padding: 10px;
-            margin: 12px;
-            text-decoration: none;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
-        }
-
-
-        .botton_down{
-
-            color: black;
-            background: limegreen;
-            text-decoration: none;
-            padding: 10px;
-            padding-left: 1.5em;
-            padding-right: 1.5em;
             
         }
 
-        .botton01:hover{
+        .header{
 
-            background: white;
-            color: black;
-            transition: 0.5s ease-in-out;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: black;
+            color: white;
+            top: 0;
+            left: 0;
+            margin: 0;
+            width: 100%;
+            height: 100px;
+            position: fixed;
+            box-sizing: border-box;
+            padding: 1vw;
+            
         }
 
-        .botton_down:hover{
+        .left_contents{
 
-            background: white;
+            display: flex;
+            align-items: center;
+          
         }
 
+        .search-box{
+            
+            width: 10rem;
+            height: 1.5rem;
+            border: 0px;
+            background: white;
+            margin-right: 20px;
+            margin-left: 20px;
 
+        }
 
+        .header_contents{
+        
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 800;
+            margin-left: 10px;
+        }
+
+        .search{
+
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+       
     </style>
 </head>
 <body>
     
-    <header class="header">
-           <h1><a href="#" class="logo">LIME</a></h1>
-        <div class="botton-box">
-            <a href="#" class="botton01">get help</a>
-            <a href="#" class="botton_down">downloads</a>
-        </div>
-    </header>
+    <heder class="header">
 
+        <div class="left_contents">
+        <h1><a href="#" class="logo">MUSINSA STORE</a></h1>
+        <div class="search-box"></div>
+        <a href="#" class="search">검색어</a>
+        </div>
+        
+        <div class="right_contents">
+
+            <a href="#" class="header_contents" ><span style="color: yellow;">신학기</span></a>
+            <a href="#" class="header_contents">랭킹</a>
+            <a href="#" class="header_contents">업데이트</a>
+            <a href="#" class="header_contents">브랜드</a>
+            <a href="#" class="header_contents">코디</a>
+            <a href="#" class="header_contents">스페셜</a>
+            <a href="#" class="header_contents">콘텐츠</a>
+            <a href="#" class="header_contents">세일</a>
+            <a href="#" class="header_contents">이벤트</a>
+            <a href="#" class="header_contents">매거진</a>
+
+        </div>
+
+    </heder>
 </body>
 </html>
